@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+
+}
+.Resource{
+  font-family:"Comic sans Ms";
+  color:darkorange;
+}
+.main{
+  height:1200px;
+  background-image: url(https://www.economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png);
+
+}
+.decrypt{
+  color:black;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+li a{
+  float:left;
+  text-align:center;
+}
+.head1{
+  background-color: black;
+  height: 45px;
+
+}
+.head1 li{
+  float:right;
+  color:white;
+  padding: 15px 20px;
+}
+.head2{
+  /*float:center;*/
+  background-color:#5dbcd2;/*blue*/
+  height: 32px;
+
+width: 100%;
+  /* Change the z-index property to 10 */
+
+}
+.head2 p{
+  float:center;
+  position: fixed;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 12px;
+}
+.e{
+  float:left;
+  padding-right:10px;
+  font-size: 24px;
+
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+
+  background-color: #fce77d;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height:250px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+
+  width: 100%;
+  background-color: #ff8c00;
+  /* Change the position property to fixed, and top property to 0 */
+
+  top:0;
+  /* Change the z-index property to 10 */
+  /*z-index:10;*/
+}
+
+.logo {
+  width: 150px;
+  margin-top: -3px;
+  padding:15px;
+  z-index:20;
+  float:left;
+  font-size: 30px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  color:#fce77d;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 18px;
+  padding: 2px 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+float:left;
+}
+
+.lesson-icon p {
+
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+.heading{
+  padding:12px 60px;
+
+}
+footer {
+  padding-top: 30px;
+}

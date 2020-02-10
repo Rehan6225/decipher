@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    body{
+    	background-color:black;
+    	font-size:12px;
+      color:white;
+    }
+</style>
+<script>
+function checkpassword(){
+        var x= document.getElementById("password").value;
+        if(x.length<8)
+		    document.getElementById("message1").innerHTML="Too short!";
+		else
+		    document.getElementById("message1").innerHTML="That's long enough!";
+	}
+	</script>
+  </head>
+  <body>
+
+    <center>    <h1 style="color:gold;">LOGIN HERE</h1>
+      <center><iframe width="200" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe></center>
+
+        <form>
+      <h3>Username:</h3>
+      <input type="text" name="firstname" required><br>
+
+      <h3>Password:</h3>
+
+      <input id="password" type="password" onblur="checkpassword();"/><span id="message1"></span>
+      <h3>Email:</h3>
+    <input type="text" name="email"><br>
+
+      <h3>Quantity (between 1 and 5): </h3>
+    <input type="number" name="quantity" min="1" max="5">
+      <h3>DOB:</h3>
+      <input type="date" name="birthday"><br>
+       <h3>Sticker Color:</h3>
+       <input type="color" name="favcolor"><br><br>
+      <input type="submit" value="submit">
+      </form>
+    </center>
+  </body>
+</html>
