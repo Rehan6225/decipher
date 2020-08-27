@@ -1,0 +1,153 @@
+body{
+  font-family:roboto;
+}
+/*navigation*/
+nav{
+  background:#021428;
+  width: 100%;
+  height:70px;
+}
+a{
+  line-height:4;
+  font-weight: bolder;
+  color:white;
+  text-decoration:none;
+  margin-left: 20px;
+  position: relative;
+  top:-13px;
+  left:40px;
+}
+
+a:hover{
+  color:yellow;
+}
+a.active{
+  color:lime;
+}
+img#logo{
+  margin-left: 402px;
+  margin-right: 20px;
+  margin-top: 14px;
+}
+/*slideshow*/
+img#slideshow{
+  border-bottom: 10px solid #021428;
+
+}
+/*home page content*/
+section#paragraph{
+  margin:100px;
+  text-align: justify;
+}
+/*Section page content*/
+h1#page-title{
+  margin-left:400px;
+  color:#021428;
+}
+
+img#services-slide{
+  margin-left:401px;
+  width:67%;
+}
+
+section#services-paragraph{
+  margin:100px;
+  margin-left: 400px;
+}
+/*Portfolio page content*/
+img#project1-image,img#project2-image,img#project3-image{
+margin-left: 401px;
+}
+div#project1{
+      margin-left: 825px;
+      position: absolute;
+      top: 121px;
+      left: 0px;
+      width: 466px;
+}
+a.project1-button,a.project2-button,a.project3-button{
+background-color: red;
+width: 100px;
+height: 60px;
+padding: 20px;
+position: relative;
+top: 11px;
+left: -20px;
+}
+section#project2,section#project3{
+  margin-top:50px;
+}
+div#project2{
+  margin-left: 825px;
+  position: absolute;
+  width: 466px;
+  left: 0px;
+  top: 474px;
+}
+div#project3{
+  margin-left: 825px;
+  position: absolute;
+  width: 466px;
+  left: 0px;
+  top: 828px;
+}
+/*about page content*/
+img#about-image{
+  margin-left: 402px;
+  margin-top: 2px;
+}
+/*contact page content*/
+form{
+  margin-left: 400px;
+}
+.form-control{
+display:block;
+width:40%;
+padding:.375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color:inherit;
+background-color:inherit;
+background-clip:padding-box;
+border:1px solid #ced4da;
+border-radius:.25rem;
+transition:border-color:15s ease-in-out,box-shadow:15s ease-in-out;
+}
+.btn-primary{
+color:white;
+background: #007bff;
+border-color:#007bff;
+padding:20px;
+}
+.btn-primary:hover{
+  color:white;
+  background: blue;
+  border-color:blue;
+}
+.btn{
+  display:inline-block;
+  font-weight:400;
+  text-align:center;
+  white-space:nowrap:
+  vertical-align:middle;
+  user-select:none;
+  border:1px solid transparent;
+  padding:.375rem .75rem;
+  font-size:1rem;
+  line-height:1.5;
+  border-radius:.25rem;
+  transition:border-color:15s ease-in-out,box-shadow:15s ease-in-out;
+
+}
+/*footer*/
+footer{
+margin-top: 200px;
+background: #021428;
+color:white;
+width:100%;
+height:213px;
+}
+p#footer-text{
+text-align:center;
+line-height: 13;
+}
