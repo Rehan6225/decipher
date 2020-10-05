@@ -1,4 +1,4 @@
-#time complexity is same for for loop and map
+
 
 a=[38,-47,39,-30,23]
 def absol(n):
