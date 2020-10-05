@@ -1,0 +1,84 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the formingMagicSquare function below.
+def formingMagicSquare(s):
+    l=[]
+    l1=[]
+    min1=[]
+    sum1=0
+    c=0
+    #for i in range(0,len(s)):
+    l=list(set([i for i in s if s.count(i)>1]))  //to find repeated elements in array
+    for i in range(1,10):
+        for j in range(0,len(s)):
+            if(i!=s[j]):
+                c=c+1
+            if(c==9): 
+                l1.append(i)  
+        c=0  
+    for i in range(0,len(l)):
+        for j in range(0,len(l1)):
+            if(l[i]>l1[j]):
+                min1.append(l[i]-l1[j])
+            else:
+                min1.append(l1[j]-l[i]) 
+        #print(min1)
+        sum1=sum1+min(min1)
+        min1=[]
+    print(l)    
+    print(l1)       
+    return sum1 
+    
+               
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = []
+    flat_list = []
+    for _ in range(3):
+        s.append(list(map(int, input().rstrip().split())))
+    
+    for sublist in s:                         //  to combine 2+ lists
+        for item in sublist:                  //
+            flat_list.append(item)            //
+    print(flat_list) 
+    #print(min(flat_list))
+    result=formingMagicSquare(flat_list)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
+
+
+
+
+
+
+
+
+Best Question: Find missing number between 1-10 and find find repeating value in matix :
+
+
+
+4 8 2
+4 5 7
+6 1 6
+
+Your Output (stdout)
+4
+
+Expected Output
+4
+
+Debug output
+[4, 8, 2, 4, 5, 7, 6, 1, 6]
+[4, 6]    //sum of min difference between 4 (3,9) + 6(3,9)
+[3, 9]    //(4-3)+(6-3)or(9-6)
